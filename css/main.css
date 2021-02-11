@@ -18,12 +18,56 @@ body {
 
 /*header*/
 
-header {
+.head {
     width: 100%;
     height: 100px;
     background-color: rgb(110, 4, 4);
 }
 
 /*main content*/
+
+/*first section*/
+.img-box {
+    width: 100%;
+    height: 400px;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+
+/*second section with float*/
+
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+
+}
+
+.side {
+    width: 25%;
+    height: 400px;
+    background-color: crimson;
+}
+
+.main-box {
+    width: 50%;
+    height: 400px;
+    background-color: darkgreen;
+
+}
+
+.float {
+    float: left;
+}
+
+/*footer*/
+
+.foot {
+    width: 100%;
+    height: 80px;
+    background: rgb(6, 91, 102);
+}
+
+
 
 
