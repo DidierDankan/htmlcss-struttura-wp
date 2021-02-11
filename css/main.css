@@ -41,6 +41,11 @@ section.container {
     background-color: lightseagreen;
 }
 
+div.head {
+    height: 80px;
+    background-color: darkgreen;
+}
+
 .clearfix::after {
     content:'';
     display: table;
@@ -50,14 +55,14 @@ section.container {
 
 .side {
     width: 25%;
-    height: 400px;
+    height: 400px; /* fake content*/
     margin-top: 15px;
-    background-color: crimson;
+    background-color: darkgreen;
 }
 
 .main-box {
     width: 48%;
-    height: 400px;
+    height: 400px; /*fake content*/
     margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
@@ -65,7 +70,8 @@ section.container {
 
 }
 
-.float {
+.side.float,
+.main-box.float {
     float: left;
 }
 
